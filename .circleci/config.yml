@@ -10,9 +10,9 @@ jobs:
           version: 17.09.0-ce
       - run:
           name: Greeting
-          commands:  
-            - docker build -t example .
-            - docker images
+          command: |
+            docker build -t example .
+            docker images
       - run:
           name: Print the Current Time
           command: date
