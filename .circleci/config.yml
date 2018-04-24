@@ -11,8 +11,8 @@ jobs:
       - run:
           name: Greeting
           command: | 
-          docker build
-          docker images
+            docker build
+            docker images
       - run:
           name: Print the Current Time
           command: date
