@@ -8,12 +8,10 @@ ENV AWS_SECRET_ACCESS_KEY=""
 # Set working directory 
 WORKDIR /app 
 # Copy files to app directory 
-COPY . ./
+COPY ../my_netcore_application/ ./
 
-CMD ls -l
 # Restore NuGet packages 
 RUN ["dotnet", "restore"] 
-CMD ls -l
 # Build the app 
 RUN ["dotnet", "build"]
 # Open port
