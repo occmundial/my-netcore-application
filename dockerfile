@@ -17,4 +17,4 @@ RUN ["dotnet", "build"]
 # Open port
 EXPOSE 5000/tcp 
 # Run the app 
-ENTRYPOINT ["dotnet", "run"]
+#ENTRYPOINT ["dotnet", "run"]

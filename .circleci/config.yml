@@ -15,13 +15,7 @@ jobs:
             VER="17.03.0-ce"
             curl -L -o /tmp/docker-$VER.tgz https://get.docker.com/builds/Linux/x86_64/docker-$VER.tgz
             tar -xz -C /tmp -f /tmp/docker-$VER.tgz
-            mv /tmp/docker/* /usr/bin    
-      - run:
-          name: Install AWS CLI and jq
-          command: |
-            sudo apt-get -y -qq install awscli
-            sudo apt-get install -y python-pip libyaml-dev python-dev jq
-            sudo pip install awscli
+            mv /tmp/docker/* /usr/bin  
       
       - run:
           name: Building Docker Image
