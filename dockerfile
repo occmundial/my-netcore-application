@@ -9,8 +9,7 @@ ENV AWS_SECRET_ACCESS_KEY=""
 WORKDIR /app 
 # Copy files to app directory 
 COPY /my_netcore_application/ ./
-RUN cd .\my_netcore_application\
-
+WORKDIR /app/my_netcore_application
 # Restore NuGet packages 
 RUN ["dotnet", "restore"] 
 # Build the app 
