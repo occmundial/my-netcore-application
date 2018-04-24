@@ -1,0 +1,10 @@
+C:\Users\jzubieta\Desktop\app\my_netcore_application\bin\Debug\netcoreapp2.0\my-netcore-application.deps.json
+C:\Users\jzubieta\Desktop\app\my_netcore_application\bin\Debug\netcoreapp2.0\my-netcore-application.runtimeconfig.json
+C:\Users\jzubieta\Desktop\app\my_netcore_application\bin\Debug\netcoreapp2.0\my-netcore-application.runtimeconfig.dev.json
+C:\Users\jzubieta\Desktop\app\my_netcore_application\bin\Debug\netcoreapp2.0\my-netcore-application.dll
+C:\Users\jzubieta\Desktop\app\my_netcore_application\bin\Debug\netcoreapp2.0\my-netcore-application.pdb
+C:\Users\jzubieta\Desktop\app\my_netcore_application\obj\Debug\netcoreapp2.0\my-netcore-application.csproj.CoreCompileInputs.cache
+C:\Users\jzubieta\Desktop\app\my_netcore_application\obj\Debug\netcoreapp2.0\my-netcore-application.AssemblyInfoInputs.cache
+C:\Users\jzubieta\Desktop\app\my_netcore_application\obj\Debug\netcoreapp2.0\my-netcore-application.AssemblyInfo.cs
+C:\Users\jzubieta\Desktop\app\my_netcore_application\obj\Debug\netcoreapp2.0\my-netcore-application.dll
+C:\Users\jzubieta\Desktop\app\my_netcore_application\obj\Debug\netcoreapp2.0\my-netcore-application.pdb
